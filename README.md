@@ -15,17 +15,6 @@ We provide six pre-trained neural networks (1) three DenseNets trained on CIFAR-
 * [DenseNet on CIFAR-10](https://www.dropbox.com/s/mqove8o9ukfn1ms/densenet_cifar10.pth?dl=0) / [DenseNet on CIFAR-100](https://www.dropbox.com/s/nosj8oblv3y8tbf/densenet_cifar100.pth?dl=0) / [DenseNet on SVHN](https://www.dropbox.com/s/9ol1h2tb3xjdpp1/densenet_svhn.pth?dl=0)
 * [ResNet on CIFAR-10](https://www.dropbox.com/s/ynidbn7n7ccadog/resnet_cifar10.pth?dl=0) / [ResNet on CIFAR-100](https://www.dropbox.com/s/yzfzf4bwqe4du6w/resnet_cifar100.pth?dl=0) / [ResNet on SVHN](https://www.dropbox.com/s/uvgpgy9pu7s9ps2/resnet_svhn.pth?dl=0)
 
-Place them into `./pre_trained/`:
-```
-mkdir pre_trained
-wget -O pre_trained/densenet_cifar10.pth https://www.dropbox.com/s/mqove8o9ukfn1ms/densenet_cifar10.pth?dl=0
-wget -O pre_trained/densenet_cifar100.pth https://www.dropbox.com/s/nosj8oblv3y8tbf/densenet_cifar100.pth?dl=0
-wget -O pre_trained/densenet_svhn.pth https://www.dropbox.com/s/9ol1h2tb3xjdpp1/densenet_svhn.pth?dl=0
-wget -O pre_trained/resnet_cifar10.pth https://www.dropbox.com/s/ynidbn7n7ccadog/resnet_cifar10.pth?dl=0
-wget -O pre_trained/resnet_cifar100.pth https://www.dropbox.com/s/yzfzf4bwqe4du6w/resnet_cifar100.pth?dl=0
-wget -O pre_trained/resnet_svhn.pth https://www.dropbox.com/s/uvgpgy9pu7s9ps2/resnet_svhn.pth?dl=0
-```
-
 ## Detecting Adversarial Samples
 
 ### 0. Generate adversarial samples:
