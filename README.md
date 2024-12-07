@@ -10,8 +10,9 @@ This repository contains the code for paper "[Adversarial Example Detection Usin
 * [scikit-image](https://scikit-image.org/)
 
 ## Pre-trained Models
-We provide six pre-trained neural networks (1) three DenseNets trained on CIFAR-10, CIFAR-100 and SVHN, where models trained on CIFAR-10 and CIFAR-100 are from [odin-pytorch](https://github.com/ShiyuLiang/odin-pytroch), and (2) three ResNets trained on CIFAR-10, CIFAR-100 and SVHN. Weights of these models are in /pre_trained/.
+We provide six pre-trained neural networks (1) three DenseNets trained on CIFAR-10, CIFAR-100 and SVHN, and (2) three ResNets trained on CIFAR-10, CIFAR-100 and SVHN. Weights of these models are in /pre_trained/.
 
+The source of these models can be found at:
 * [DenseNet on CIFAR-10](https://www.dropbox.com/s/mqove8o9ukfn1ms/densenet_cifar10.pth?dl=0) / [DenseNet on CIFAR-100](https://www.dropbox.com/s/nosj8oblv3y8tbf/densenet_cifar100.pth?dl=0) / [DenseNet on SVHN](https://www.dropbox.com/s/9ol1h2tb3xjdpp1/densenet_svhn.pth?dl=0)
 * [ResNet on CIFAR-10](https://www.dropbox.com/s/ynidbn7n7ccadog/resnet_cifar10.pth?dl=0) / [ResNet on CIFAR-100](https://www.dropbox.com/s/yzfzf4bwqe4du6w/resnet_cifar100.pth?dl=0) / [ResNet on SVHN](https://www.dropbox.com/s/uvgpgy9pu7s9ps2/resnet_svhn.pth?dl=0)
 
