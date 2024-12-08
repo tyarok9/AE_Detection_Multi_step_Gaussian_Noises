@@ -51,7 +51,7 @@ for model in resnet densenet
 do
   for dataset in cifar10 cifar100 svhn
   do
-    python -u supervised_detection.py  --dataset $dataset --model $model
+    python -u create_detection_features.py  --dataset $dataset --model $model
   done
 done
 ```
