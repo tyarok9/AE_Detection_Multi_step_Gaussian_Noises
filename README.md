@@ -99,7 +99,7 @@ python view_results.py
 Tables containing the final results should be displayed:
 ```
 Supervised
-                   | BIM   | CW    | DF    | FGSM  | PGD   | AVG   | 
+                   | BIM   | CW    | DF    | FGSM  | PGD   | AVG.   | 
 densenet | cifar10 | 99.98 | 96.31 | 95.25 | 99.93 | 100.00| 98.29 | 
          | cifar100| 99.97 | 98.66 | 94.88 | 100.00| 99.66 | 98.63 | 
          | svhn    | 99.79 | 98.20 | 98.20 | 98.96 | 100.00| 99.03 | 
@@ -110,7 +110,7 @@ resnet   | cifar10 | 99.46 | 95.24 | 96.06 | 99.25 | 99.76 | 97.95 |
 
 ```
 Unsupervised
-                   | BIM   | CW    | DF    | FGSM  | PGD   | AVG   | 
+                   | BIM   | CW    | DF    | FGSM  | PGD   | AVG.   | 
 densenet | cifar10 | 99.67 | 83.60 | 83.36 | 86.54 | 99.79 | 90.59 | 
          | cifar100| 98.46 | 58.59 | 56.41 | 70.04 | 95.13 | 75.73 | 
          | svhn    | 97.05 | 93.26 | 94.37 | 90.93 | 99.49 | 95.02 | 
